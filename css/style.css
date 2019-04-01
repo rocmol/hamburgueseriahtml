@@ -14,8 +14,11 @@ body{
 	font-size: 16px;
 }
 
-h1{
-	font-size: 200%;
+.row:after{
+	content: "";
+	height:  0px;
+	display: block;
+	clear: both;
 }
 
 .container-fluid{
@@ -32,7 +35,7 @@ header .submenu{
 	background-color: #21242e;
 	color: white;
 	text-align: left;
-	padding: 10px 0px;
+	padding: 20px 0px;
 }
 
 header .submenu .container div{
@@ -48,17 +51,50 @@ header .submenu a{
 
 header .submenu a:hover{
 	color: #fa573a;
+	margin-right: 5px;
 }
 header .submenu .container div:last-child, header .submenu .container div:nth-child(3){
 	text-align: right;
 }
 
+header .submenu i{
+	color: #fa573a;
+}
 
-.row:after{
-	content: "";
-	height:  0px;
-	display: block;
-	clear: both;
+header nav{
+	background-color: white;
+	padding: 20px 0px;
+}
+
+header nav .logo{
+	width: 100px;
+	height:auto;
+	float:left;
+}
+header nav .menu{
+	float: right;
+	padding-top: 5px;
+}
+
+header nav .menu li{
+	display: inline-block;
+	margin-left: 15px;
+}
+
+header nav a{
+	text-decoration: none;
+	color: #666;
+}
+header nav a:hover{
+	text-decoration: none;
+	color: #fa573a;
+}
+header nav .activo{
+	color: #fa573a;
+}
+img{
+	width: 100%;
+	height: auto;
 }
 
 /* Fin Hero */
