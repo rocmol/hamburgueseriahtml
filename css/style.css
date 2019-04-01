@@ -12,6 +12,7 @@ font-family: 'Montserrat', sans-serif;
 body{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
+	background-color: black;
 }
 
 .row:after{
@@ -30,7 +31,7 @@ body{
 	margin: 0 auto;
 }
 
-/* Hero */
+/* Header */
 header .submenu{
 	background-color: #21242e;
 	color: white;
@@ -55,6 +56,9 @@ header .submenu a:hover{
 }
 header .submenu .container div:last-child, header .submenu .container div:nth-child(3){
 	text-align: right;
+}
+header .submenu .container div:first-child{
+	padding-left: 0px;
 }
 
 header .submenu i{
@@ -95,6 +99,60 @@ header nav .activo{
 img{
 	width: 100%;
 	height: auto;
+}
+
+/* Fin Header */
+
+/* Hero */
+.hero{
+	background-image: url(../images/hamburguesa-de-mijo-con-pan.jpg);
+	background-color: #222;
+	height: 550px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-blend-mode: soft-light;
+}
+.hero>div{
+	padding: 12% 15%;
+	color: white;
+}
+.hero>div h2{
+	font-size: 2.25em;
+	font-family: 'Indie Flower', cursive;
+	color: white;
+}
+
+.hero>div h3{
+	font-size: 1.25em;
+	color: #fa573a;
+	margin: 20px 0px;
+}
+
+.hero>div div a{
+	background-color: #fa573a;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding:12px;
+	margin: 20px 0px;
+	border: 2px solid #fa573a;
+}
+
+.hero>div div a:hover{
+	background-color: transparent;
+	color: #fa573a;
+	border: 2px solid #fa573a;
+}
+.hero .social li{
+	display: inline-block;
+	margin-right: 30px;
+	font-size: 24px;
+	padding-left: 2.5px;
+}
+
+.hero .social li a{
+	color:white;
 }
 
 /* Fin Hero */
