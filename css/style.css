@@ -61,7 +61,7 @@ header .submenu .container div:last-child, header .submenu .container div:nth-ch
 	text-align: right;
 }
 header .submenu .container div:first-child{
-	padding-left: 0px;
+	padding-left: 20px;
 }
 
 header .submenu i{
@@ -261,6 +261,7 @@ main section .columna{
 main #aboutus .imagen{
 	width: 85%;
 	height: auto;
+	margin: 0 auto;
 }
 
 main #aboutus .imagen .marco{
@@ -284,5 +285,91 @@ main #aboutus .imagen:hover img{
 	transform: rotateZ(0deg);
 	transition: 1s;
 }
+.hamburguesa{
+	display: none;
+}
+
+
+
+@media (max-width: 1100px){
+	header .submenu{
+		padding-right: 20px;
+	}
+	header nav{
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+}
+@media (max-width: 768px){
+	header .submenu{
+		font-size: 70%;
+	}
+}
+
+@media (max-width: 600px){
+	.hamburguesa{
+	display: block;
+	float: right;
+
+} 
+ .hamburguesa .linea{
+ 	border-top: 2px solid #aaa;
+ 	width: 30px;
+ 	margin-bottom: 10px; 
+ 	cursor: pointer;
+ }
+	
+	header .submenu .itexto{
+		display:none;
+
+}
+
+	header .submenu div{
+		font-size: 150%;
+}
+
+	header nav .logo{
+		float: left;
+	}
+	header nav .menu{
+		float: none;
+		padding-top: 60px;
+	}
+	header nav .menu li{
+		display: block;
+		margin-left: 0px;
+		padding: 20px;
+		text-align: center;
+		border-bottom: 1px solid #ddd;
+	}
+	header nav .menu li:last-child{
+	border-bottom: 0px;
+}
+ main #ourservice article{
+ 	width: 50%;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+
+ }
+	
+}
+ @media(max-width: 426px){
+	
+ main #ourservice article{
+ 	width: 100%;
+ 	border-left: 0px;
+ 	border-bottom: 1px solid #ccc;
+ 	}
+main section .columna{
+	width: 100%;
+	padding: 20px; 
+	text-align: center;
+}
+
+
+
+ }
+
+
 
 /* Fin Main */
