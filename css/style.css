@@ -1,6 +1,6 @@
 @import url(reset.css);
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Montserrat:400,700&subset=latin-ext');
-/*font-family: 'Indie Flower', cursive;
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Montserrat:400,700');
+/*font-family: 'Great Vibes', cursive;
 font-family: 'Montserrat', sans-serif;
 */
 
@@ -19,6 +19,10 @@ body{
 	height:  0px;
 	display: block;
 	clear: both;
+}
+h3{
+	margin: 20px 0px;
+    font-size: 1.25em;
 }
 
 .container-fluid{
@@ -117,18 +121,16 @@ img{
 	color: white;
 }
 .hero>div h2{
-	font-size: 2.25em;
-	font-family: 'Indie Flower', cursive;
+	font-size: 2.50em;
+	font-family: 'Great Vibes', cursive;
 	color: white;
 }
 
 .hero>div h3{
-	font-size: 1.25em;
 	color: #fa573a;
-	margin: 20px 0px;
 }
 
-.hero>div div a{
+.boton{
 	background-color: #fa573a;
 	color: white;
 	text-decoration: none;
@@ -138,7 +140,7 @@ img{
 	border: 2px solid #fa573a;
 }
 
-.hero>div div a:hover{
+.boton:hover{
 	background-color: transparent;
 	color: #fa573a;
 	border: 2px solid #fa573a;
@@ -167,7 +169,7 @@ section{
 
 main .section-light h2{
 	color: black;
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Great Vibes', cursive;
 	text-align: center;
 	font-size: 2.5em;
 }
@@ -177,10 +179,10 @@ main .section-light h2 span{
 
 main section .underline{
 		position: relative;
-		margin-bottom: 40px;
+		margin: 0 auto 40px auto;
 		height: 15px;
 		width: 115px;
-		margin: 0 auto; 
+		
 }
  main section .underline hr{
  	width: 115px;
@@ -197,7 +199,58 @@ main section .underline{
 	top: 7.5px;
 	left: 51px;
 	color: #fa573a;
-	
- }
+}
+
+main section .flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+main #ourservice article{
+	width: 33%;
+	border-left:1px solid #ccc;
+	padding: 0px 25px;
+}
+
+main #ourservice article .icon{
+	color: #fa573a;
+	font-size: 20px;
+	padding: 6px;
+	border: 2px solid #fa573a;
+}
+.fa-truck{
+	transform: rotateY(180deg);
+}
+
+main section h3{
+	font-weight: 700;
+}
+
+main section p{
+	color: #666;
+	line-height: 1.5;
+}
+
+.enlace{
+	color: #fa573a;
+	text-decoration: none;
+	font-weight: 700;
+	margin: 20px 0px 0px 0px;
+	display: inline-block;
+}
+
+.enlace:hover i{ 
+	margin-left: 5px;
+	transition: .5s;
+}
+
+main section h4{
+	color: #fa573a;
+
+}
+
+main section .columna1{
+
+}
 
 /* Fin Main */
