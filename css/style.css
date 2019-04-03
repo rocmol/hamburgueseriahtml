@@ -1,0 +1,375 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Montserrat:400,700');
+/*font-family: 'Great Vibes', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+
+*{
+
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
+.row:after{
+	content: "";
+	height:  0px;
+	display: block;
+	clear: both;
+}
+h3{
+	margin: 20px 0px;
+    font-size: 1.25em;
+}
+
+.container-fluid{
+	width: 100%;
+}
+
+.container{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+/* Header */
+header .submenu{
+	background-color: #21242e;
+	color: white;
+	text-align: left;
+	padding: 20px 0px;
+}
+
+header .submenu .container div{
+	width: 25%;
+	float: left;
+	padding-left: 20px;
+}
+
+header .submenu a{
+	color:white;
+	text-decoration: none;
+}
+
+header .submenu a:hover{
+	color: #fa573a;
+	margin-right: 5px;
+}
+header .submenu .container div:last-child, header .submenu .container div:nth-child(3){
+	text-align: right;
+}
+header .submenu .container div:first-child{
+	padding-left: 20px;
+}
+
+header .submenu i{
+	color: #fa573a;
+}
+
+header nav{
+	background-color: white;
+	padding: 20px 0px;
+}
+
+header nav .logo{
+	width: 100px;
+	height:auto;
+	float:left;
+}
+header nav .menu{
+	float: right;
+	padding-top: 5px;
+}
+
+header nav .menu li{
+	display: inline-block;
+	margin-left: 15px;
+}
+
+header nav a{
+	text-decoration: none;
+	color: #666;
+}
+header nav a:hover{
+	text-decoration: none;
+	color: #fa573a;
+}
+header nav .activo{
+	color: #fa573a;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+
+/* Fin Header */
+
+/* Hero */
+.hero{
+	background-image: url(../images/hamburguesa-de-mijo-con-pan.jpg);
+	background-color: #222;
+	height: 550px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-blend-mode: soft-light;
+}
+.hero>div{
+	padding: 12% 15%;
+	color: white;
+}
+.hero>div h2{
+	font-size: 2.50em;
+	font-family: 'Great Vibes', cursive;
+	color: white;
+}
+
+.hero>div h3{
+	color: #fa573a;
+}
+
+.boton{
+	background-color: #fa573a;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding:12px;
+	margin: 20px 0px;
+	border: 2px solid #fa573a;
+}
+
+.boton:hover{
+	background-color: transparent;
+	color: #fa573a;
+	border: 2px solid #fa573a;
+}
+.hero .social li{
+	display: inline-block;
+	margin-right: 30px;
+	font-size: 24px;
+	padding-left: 2.5px;
+}
+
+.hero .social li a{
+	color: white;
+}
+
+/* Fin Hero */
+
+/* Main */
+main h1{
+	display: none;
+}
+
+section{
+	padding: 50px 0px;
+}
+
+main .section-light h2{
+	color: black;
+	font-family: 'Great Vibes', cursive;
+	text-align: center;
+	font-size: 2.5em;
+}
+main .section-light h2 span{
+	color: #fa573a;
+}
+
+main section .underline{
+		position: relative;
+		margin: 0 auto 40px auto;
+		height: 15px;
+		width: 115px;
+		
+}
+ main section .underline hr{
+ 	width: 115px;
+ 	position: absolute;
+ 	top: 6px;
+ 	border-color: #fa573a;
+ 
+
+ }
+ main section .underline span{
+	display: block;
+	font-weight: bold;
+	position: absolute;
+	top: 7.5px;
+	left: 51px;
+	color: #fa573a;
+}
+
+main section .flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+main #ourservice article{
+	width: 33%;
+	border-left:1px solid #ccc;
+	padding: 0px 25px;
+}
+
+main #ourservice article .icon{
+	color: #fa573a;
+	font-size: 20px;
+	padding: 6px;
+	border: 2px solid #fa573a;
+}
+.fa-truck{
+	transform: rotateY(180deg);
+}
+
+main section h3{
+	font-weight: 700;
+
+}
+main #aboutus h3{
+	margin-top: 0px;
+}
+
+main section p{
+	color: #666;
+	line-height: 1.5;
+}
+
+.enlace{
+	color: #fa573a;
+	text-decoration: none;
+	font-weight: 700;
+	margin: 20px 0px 0px 0px;
+	display: inline-block;
+}
+
+.enlace:hover i{ 
+	margin-left: 5px;
+	transition: .5s;
+}
+
+main section h4{
+	color: #fa573a;
+	font-size: 1.05em;
+	margin-bottom: 20px;
+}
+
+main section .columna{
+	width: 50%;
+	padding: 20px; 
+}
+main #aboutus .imagen{
+	width: 85%;
+	height: auto;
+	margin: 0 auto;
+}
+
+main #aboutus .imagen .marco{
+	border: 3px solid #fa573a;
+	background-color: transparent;
+	transform: rotateZ(10deg);
+	
+}
+
+main #aboutus .imagen img{
+	display: block;
+	transform: rotateZ(-10deg);
+
+}
+
+main #aboutus .imagen:hover .marco{
+ 	transform: rotateZ(0deg);
+ 	transition: 1s;
+}
+main #aboutus .imagen:hover img{
+	transform: rotateZ(0deg);
+	transition: 1s;
+}
+.hamburguesa{
+	display: none;
+}
+
+
+
+@media (max-width: 1100px){
+	header .submenu{
+		padding-right: 20px;
+	}
+	header nav{
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+}
+@media (max-width: 768px){
+	header .submenu{
+		font-size: 70%;
+	}
+}
+
+@media (max-width: 600px){
+	.hamburguesa{
+	display: block;
+	float: right;
+
+} 
+ .hamburguesa .linea{
+ 	border-top: 2px solid #aaa;
+ 	width: 30px;
+ 	margin-bottom: 10px; 
+ 	cursor: pointer;
+ }
+	
+	header .submenu .itexto{
+		display:none;
+
+}
+
+	header .submenu div{
+		font-size: 150%;
+}
+
+	header nav .logo{
+		float: left;
+	}
+	header nav .menu{
+		float: none;
+		padding-top: 60px;
+	}
+	header nav .menu li{
+		display: block;
+		margin-left: 0px;
+		padding: 20px;
+		text-align: center;
+		border-bottom: 1px solid #ddd;
+	}
+	header nav .menu li:last-child{
+	border-bottom: 0px;
+}
+ main #ourservice article{
+ 	width: 50%;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+
+ }
+	
+}
+ @media(max-width: 426px){
+	
+ main #ourservice article{
+ 	width: 100%;
+ 	border-left: 0px;
+ 	border-bottom: 1px solid #ccc;
+ 	}
+main section .columna{
+	width: 100%;
+	padding: 20px; 
+	text-align: center;
+}
+
+
+
+ }
+
+
+
+/* Fin Main */
